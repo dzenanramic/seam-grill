@@ -11,19 +11,19 @@ const menuItems = [
     title: "Sač",
     img: "/sac.jpg",
     price: "7 KM",
-    desc: "Tradicionalni roštilj s domaćim somunom, lukom i kajmakom",
+    desc: "Domaće pite pečene ispod sača, hrskave korice i bogatog nadjeva",
   },
   {
     title: "Roštilj",
     img: "/rostilj.jpg",
     price: "9 KM",
-    desc: "Sočna marinirana piletina sa roštilja uz domaći pomfrit i salatu",
+    desc: "Sočno meso s roštilja, pažljivo začinjeno i pečeno na ćumuru",
   },
   {
     title: "Doner",
     img: "/doner.jpg",
     price: "8 KM",
-    desc: "Domaća pljeskavica od mješanog mesa sa kajmakom i lepinjom",
+    desc: "Turski specijalitet s mariniranim mesom, svježim povrćem i domaćim umacima u lepinji",
   },
 ];
 

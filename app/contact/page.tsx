@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen  bg-[#121212] text-[#E0E0E0]">
+    <main className=" bg-[#121212] text-[#E0E0E0]">
       <section className="container px-4 py-16 max-w-4xl mx-auto">
         {/* Header with decorative elements */}
         <div className="text-center mb-12 relative">
@@ -15,7 +15,7 @@ export default function ContactPage() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+        <div className=" items-center">
           {/* Contact Information */}
           <div className="bg-[#1E1E1E] backdrop-blur-sm rounded-2xl p-6 border border-[#333346] shadow-xl">
             <div className="space-y-6">

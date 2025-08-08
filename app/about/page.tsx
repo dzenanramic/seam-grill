@@ -4,7 +4,7 @@ import { Separator } from "@/components/ui/separator";
 
 function AboutPage() {
   return (
-    <main className="min-h-screen bg-[#121212] text-[#E0E0E0]">
+    <main className=" bg-[#121212] text-[#E0E0E0]">
       {/* Hero Section */}
       <section className="relative">
         <div className="absolute inset-0 bg-black/60 z-10"></div>
