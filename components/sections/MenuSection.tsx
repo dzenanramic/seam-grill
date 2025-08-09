@@ -2,9 +2,9 @@
 "use client";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
+import Link from "next/link";
 
 const menuItems = [
   {
@@ -56,7 +56,6 @@ export default function MenuSection() {
                 </div>
                 <CardHeader className="flex justify-between items-start">
                   <h3 className="text-xl font-bold text-white">{item.title}</h3>
-                  <Badge variant="destructive">{item.price}</Badge>
                 </CardHeader>
                 <CardContent>
                   <p className="text-white mb-4">{item.desc}</p>
@@ -66,9 +65,11 @@ export default function MenuSection() {
           </div>
 
           <div className="text-center mt-12">
-            <Button className="bg-[#E11D48] hover:bg-[#BE123C] text-white">
-              Pogledaj cijeli meni
-            </Button>
+            <Link href="/menu" passHref>
+              <Button className="bg-[#E11D48] hover:bg-[#BE123C] text-white">
+                Pogledaj cijeli meni
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
