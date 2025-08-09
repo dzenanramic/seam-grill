@@ -2,6 +2,7 @@
 "use client";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -22,9 +23,11 @@ export default function HeroSection() {
           <p className="text-xl mb-8 text-white">
             Najukusnije pite u Banja Luci
           </p>
-          <Button className="bg-[#E11D48] hover:bg-[#BE123C] text-white">
-            Pogledaj meni
-          </Button>
+          <Link href="/menu" passHref>
+            <Button className="bg-[#E11D48] hover:bg-[#BE123C] text-white">
+              Pogledaj meni
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
