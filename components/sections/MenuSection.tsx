@@ -29,9 +29,8 @@ const menuItems = [
 export default function MenuSection() {
   return (
     <>
-      {/* <Separator className="my-16 bg-gray-900" /> */}
-      <section className="py-16">
-        <div className="container px-4">
+      <section className="py-16 w-full">
+        <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-2">Naša ponuda</h2>
             <p className="text-muted-foreground">
@@ -39,11 +38,11 @@ export default function MenuSection() {
               ljubavlju
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center max-w-8xl mx-auto">
             {menuItems.map((item) => (
               <Card
                 key={item.title}
-                className="bg-[#1E1E1E] hover:scale-105 transition-transform border-0"
+                className="bg-[#1E1E1E] hover:scale-105 transition-transform border-0 w-full max-w-sm"
               >
                 <div className="relative h-56 w-full">
                   <Image
