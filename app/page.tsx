@@ -5,7 +5,7 @@ import TestimonialsSection from "@/components/sections/TestemonialSection";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Seam pite ispod sača – Banja Luka",
+  title: "Pite pod sačem – Banja Luka",
   description: "Ukusna hrana, srdačna usluga. Posjetite nas u Banja Luci!",
 };
 

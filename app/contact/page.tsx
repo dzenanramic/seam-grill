@@ -12,6 +12,7 @@ export default function ContactPage() {
           </h1>
           <p className="text-[#aaa] max-w-md mx-auto">
             Dođite i probajte najbolje pite u gradu ili nas pozovite za narudžbu
+            i besplatnu dostavu
           </p>
         </div>
 
@@ -26,7 +27,7 @@ export default function ContactPage() {
                 <div>
                   <h2 className="font-bold text-xl mb-1">Adresa</h2>
                   <p className="text-[#b0b0b0]">
-                    Kralja Petra I Karađorđevića 32, Banja Luka
+                    Patrijarha Makarija Sokolovića 1, Banja Luka
                   </p>
                 </div>
               </div>
@@ -41,7 +42,7 @@ export default function ContactPage() {
                     href="tel:+38765185575"
                     className="text-lg hover:text-red-400 transition-colors duration-300"
                   >
-                    +387 65 185 575
+                    +387 65 190 346
                   </a>
                 </div>
               </div>
@@ -52,7 +53,15 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h2 className="font-bold text-xl mb-1">Radno vrijeme</h2>
-                  <p className="text-[#b0b0b0]">Pon - Ned: 06:00 - 23:00</p>
+                  <ul className="text-sm text-muted-foreground space-y-2">
+                    <li>Ponedjeljak: 07:00 - 16:00</li>
+                    <li>Utorak: 07:00 - 21:00</li>
+                    <li>Srijeda: 07:00 - 21:00</li>
+                    <li>Četvrtak: 07:00 - 21:00</li>
+                    <li>Petak: 07:00 - 21:00</li>
+                    <li>Subota: 07:00 - 21:00</li>
+                    <li>Nedjelja: 07:00 - 16:00</li>
+                  </ul>
                 </div>
               </div>
 
@@ -61,12 +70,12 @@ export default function ContactPage() {
                 <h3 className="font-bold text-xl mb-4">Pratite nas</h3>
                 <div className="flex space-x-4">
                   <SocialLink
-                    href="https://www.facebook.com/p/Pite-ispod-sa%C4%8Da-SEAM-Banja-Luka-61556173691835/?locale=hr_HR"
+                    href="https://www.facebook.com/p/Pite-ispod-sa%C4%8Da-Banja-Luka-61556173691835/?locale=hr_HR"
                     icon={<FacebookIcon />}
                     label="Facebook"
                   />
                   <SocialLink
-                    href="https://www.instagram.com/seam.restaurant.bl/"
+                    href="https://www.instagram.com/pite.pod.sacem.bl/"
                     icon={<InstagramIcon />}
                     label="Instagram"
                   />

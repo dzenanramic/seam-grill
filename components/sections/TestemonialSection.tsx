@@ -5,22 +5,22 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const testimonials = [
   {
-    name: "Branko Nedić",
+    name: "Katarina",
     role: "Redovan gost",
-    letter: "M",
-    text: "Pite su odliičnee. Kada se uzme u obzir dugogodišnja tradicija ekipe koja stoji iza ovog lokala, nije ni čudo. Oduševljen sam i definitivno ću češće dolaziti ovamo. Svim maksimalne preporuke za pojesti nešto autentično.",
+    letter: "K",
+    text: "Vrhunski burek (sa sjeckanom teletinom), sirnica i mljevenim mesom, vrhunska usluga, tete koje rade tamo jako srdačne, jako ljubazne. Vraćamo se ponovo! Hvala, divni ste! ",
   },
   {
-    name: "Marko Lukić",
-    role: "Turist",
+    name: "Aleksandar",
+    role: "Lokalni vodič",
     letter: "A",
-    text: "Pite ispod sača sa seckanom (mlevenom) junetinom i teletinom, najbolje koje sam jeo do sada. Probali smo Banjalučki ćevap koji je jako sočan, pun ukusa! Osoblje preljubazno. Svaka preporuka, vraticu se sigurno kada ponovo dodjem u Banjaluku.",
+    text: "Fenomenalne pite ispod sača. Uvijek svježe i tople. Sacevi se peku na vaše oči, a nove ture samo kruže. Topla preporuka.",
   },
   {
-    name: "Mirjana",
+    name: "Safet",
     role: "Posjetilac",
-    letter: "N",
-    text: "Obavezno posjetiti kad se dodje u B.Luku. Pite su fenomenalne. Osoblje ljubazno. Ekipa iz Apatina",
+    letter: "S",
+    text: "Definitvno svaki moj dolazak u Banja Luku je posjeta ovom restoranu, najbolje pite i osoblje.",
   },
 ];
 

@@ -3,34 +3,33 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
 
 const menuItems = [
   {
-    title: "Sač",
-    img: "/sac.jpg",
+    title: "Burek",
+    img: "/burek.jpg",
     price: "7 KM",
-    desc: "Domaće pite pečene ispod sača, hrskave korice i bogatog nadjeva",
+    desc: "Pita punjena mesom, tradicionalni bosanski specijalitet.",
   },
   {
-    title: "Roštilj",
-    img: "/rostilj.jpg",
+    title: "Sirnica",
+    img: "/sirnica.jpg",
     price: "9 KM",
-    desc: "Sočno meso s roštilja, pažljivo začinjeno i pečeno na ćumuru",
+    desc: "Pita punjena sirom, omiljena u cijeloj regiji.",
   },
   {
-    title: "Doner",
-    img: "/doner.jpg",
+    title: "Zeljanica",
+    img: "/zeljanica.jpg",
     price: "8 KM",
-    desc: "Turski specijalitet s mariniranim mesom, svježim povrćem i domaćim umacima u lepinji",
+    desc: "Pita punjena blitvom i sirom, svježa i lagana.",
   },
 ];
 
 export default function MenuSection() {
   return (
     <>
-      <Separator className="my-16 bg-gray-900" />
+      {/* <Separator className="my-16 bg-gray-900" /> */}
       <section className="py-16">
         <div className="container px-4">
           <div className="text-center mb-16">
