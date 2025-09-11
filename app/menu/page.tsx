@@ -72,7 +72,7 @@ function MenuList() {
   return (
     <Card className="bg-[#1a1a1a] border-gray-800">
       <CardHeader>
-        <CardTitle className="text-xl text-red-500 text-center">
+        <CardTitle className="text-xl text-[#FBBF24]  text-center">
           Jelovnik
         </CardTitle>
       </CardHeader>

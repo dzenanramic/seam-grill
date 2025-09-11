@@ -66,7 +66,7 @@ export default function MenuSection() {
             <Link href="/menu" passHref>
               <Button
                 size="lg"
-                className="bg-[#E11D48] hover:bg-[#BE123C] text-white px-8 py-6 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl min-w-[220px] w-full sm:w-[220px]"
+                className="bg-[#FBBF24] hover:bg-[#FBBF24] text-black px-8 py-6 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl min-w-[220px] w-full sm:w-[220px]"
               >
                 Pogledaj cijeli meni
               </Button>

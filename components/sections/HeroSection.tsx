@@ -41,8 +41,8 @@ export default function HeroSection() {
         >
           {/* Main heading with improved typography */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight">
-            <span className="text-[#E11D48] drop-shadow-md">Pite</span> pod
-            sačem
+            <span className="text-[#FBBF24] drop-shadow-md">Pite</span> pod
+            sačem <span className="text-[#FBBF24]">&quot;Sač&quot;</span>
           </h1>
           {/* Description with improved styling */}
           <p className="text-xl md:text-2xl mb-10 text-white/95 max-w-2xl mx-auto leading-relaxed font-light">
@@ -55,7 +55,7 @@ export default function HeroSection() {
           <Link href="/menu" passHref>
             <Button
               size="lg"
-              className="bg-[#E11D48] hover:bg-[#BE123C] text-white px-8 py-6 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl min-w-[220px] w-full sm:w-[220px]"
+              className="bg-[#FBBF24] hover:bg-[#FBBF24] text-black px-8 py-6 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl min-w-[220px] w-full sm:w-[220px]"
             >
               Pogledaj meni
             </Button>

@@ -5,22 +5,22 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const testimonials = [
   {
-    name: "Katarina",
-    role: "Redovan gost",
+    name: "Mario",
+    role: "Gost",
     letter: "K",
-    text: "Vrhunski burek (sa sjeckanom teletinom), sirnica i mljevenim mesom, vrhunska usluga, tete koje rade tamo jako srdačne, jako ljubazne. Vraćamo se ponovo! Hvala, divni ste! ",
+    text: "Danas prvi put bio po preporuci....prosto sam iznenadjen hranom i osobljem... sve svježe i bogat izbor, cjene za kvalitet dobre....prepostavljam da sam i sa gazdom malo popričao ....sve za 5 💥‼️",
   },
   {
     name: "Aleksandar",
     role: "Lokalni vodič",
     letter: "A",
-    text: "Fenomenalne pite ispod sača. Uvijek svježe i tople. Sacevi se peku na vaše oči, a nove ture samo kruže. Topla preporuka.",
+    text: "Najbolja pita u BL. Jako ljubazno osoblje. Uvijek rado dodjem.",
   },
   {
-    name: "Safet",
+    name: "Borjana",
     role: "Posjetilac",
     letter: "S",
-    text: "Definitvno svaki moj dolazak u Banja Luku je posjeta ovom restoranu, najbolje pite i osoblje.",
+    text: "Najbolja pita u gradu. Osoblje uslužno, Cijene pristupačne. Sve pohvale.",
   },
 ];
 
