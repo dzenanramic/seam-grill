@@ -72,7 +72,7 @@ function MenuList() {
   return (
     <Card className="bg-[#FBBF24]  border-gray-800">
       <CardHeader>
-        <CardTitle className="text-3xl text-[#E11D48]  text-center">
+        <CardTitle className="text-3xl text-[#c90404]  text-center">
           Jelovnik
         </CardTitle>
       </CardHeader>
@@ -83,13 +83,13 @@ function MenuList() {
               key={idx}
               className="flex flex-col md:flex-row md:justify-between border-b border-gray-700 pb-2 last:border-none"
             >
-              <span className="text-[#E11D48] text-xl font-medium">
+              <span className="text-[#c90404] text-xl font-medium">
                 {item.item}
                 {item.quantity ? (
-                  <span className="text-[#E11D48] font-normal">{` (${item.quantity})`}</span>
+                  <span className="text-[#c90404] font-normal">{` (${item.quantity})`}</span>
                 ) : null}
               </span>
-              <span className="text-[#E11D48] mt-1 md:mt-0">{item.price}</span>
+              <span className="text-[#c90404] mt-1 md:mt-0">{item.price}</span>
             </li>
           ))}
         </ul>
@@ -103,7 +103,7 @@ export default function MenuPage() {
     <div className="max-w-2xl mx-auto px-4 py-10">
       <MenuList />
       <Separator className="my-10 bg-gray-800" />
-      <p className="text-center text-lg text-[#E11D48]">
+      <p className="text-center text-lg text-[#c90404]">
         Cijene su izražene u konvertibilnim markama (KM).
       </p>
     </div>

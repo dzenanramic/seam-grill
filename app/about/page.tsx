@@ -29,15 +29,15 @@ function AboutPage() {
       {/* About Content */}
       <section className="py-16">
         <div className="container px-4 max-w-3xl mx-auto">
-          <h2 className="text-[#E11D48] text-3xl font-bold mb-6">Naša priča</h2>
-          <p className="text-lg mb-6 text-[#E11D48]">
+          <h2 className="text-[#c90404] text-3xl font-bold mb-6">Naša priča</h2>
+          <p className="text-lg mb-6 text-[#c90404]">
             Pite pod sačem je porodični restoran u srcu Banja Luke, poznat po
             autentičnim pitama ispod sača i roštilju pripremljenom po
             tradicionalnim receptima. Naša misija je da gostima pružimo
             nezaboravno gastronomsko iskustvo uz domaću atmosferu i srdačnu
             uslugu.
           </p>
-          <p className="text-lg mb-6 text-[#E11D48]">
+          <p className="text-lg mb-6 text-[#c90404]">
             Svaka pita, svaki komad mesa i svaki osmijeh našeg osoblja rezultat
             su ljubavi prema kuhinji i gostima. Posjetite nas i uvjerite se
             zašto smo omiljeni izbor za sve generacije!

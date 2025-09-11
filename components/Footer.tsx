@@ -7,30 +7,30 @@ export default function Footer() {
         {/* First column - spans full width on mobile, 3 columns on desktop */}
         <div className="md:col-span-3 lg:col-span-1">
           <div className="flex items-center gap-3 mb-4">
-            <h2 className="text-xl font-bold text-[#E11D48]">
+            <h2 className="text-xl font-bold text-[#c90404]">
               Pite pod sačem &quot;Sač&quot; - Banja Luka
             </h2>
           </div>
-          <p className="text-sm text-[#E11D48] max-w-md">
+          <p className="text-sm text-[#c90404] max-w-md">
             Najbolje pite u Banja Luci. Posjetite nas i uvjerite se u kvalitet!
           </p>
         </div>
 
         {/* Second column - working hours */}
         <div>
-          <h3 className="text-lg font-bold mb-4 text-[#E11D48]">
+          <h3 className="text-lg font-bold mb-4 text-[#c90404]">
             Radno vrijeme
           </h3>
-          <p className="text-[#E11D48]">06:00 - 22:00</p>
+          <p className="text-[#c90404]">06:00 - 22:00</p>
         </div>
 
         {/* Third column - contact */}
         <div>
-          <h3 className="text-lg font-bold mb-4 text-[#E11D48]">Kontakt</h3>
-          <p className="text-sm text-[#E11D48]">
+          <h3 className="text-lg font-bold mb-4 text-[#c90404]">Kontakt</h3>
+          <p className="text-sm text-[#c90404]">
             Patrijarha Makarija Sokolovića 4, Banja Luka
           </p>
-          <p className="text-sm text-[#E11D48] mt-2">+387 65 190 346</p>
+          <p className="text-sm text-[#c90404] mt-2">+387 65 190 346</p>
         </div>
 
         {/* Map section - full width on mobile, right column on desktop */}
@@ -49,7 +49,7 @@ export default function Footer() {
 
       <Separator className="my-6 bg-sidebar-border" />
 
-      <div className="text-center text-xs text-[#E11D48]">
+      <div className="text-center text-xs text-[#c90404]">
         © {new Date().getFullYear()} Pite pod sačem. Sva prava zadržana.
       </div>
     </footer>

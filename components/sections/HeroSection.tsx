@@ -40,7 +40,7 @@ export default function HeroSection() {
           }`}
         >
           {/* Main heading with improved typography */}
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-yellow leading-tight">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-[#c90404] leading-tight">
             <span className="text-[#FBBF24] drop-shadow-md">Pite</span> pod
             sačem{" "}
             <span className="text-[#FBBF24] drop-shadow-md">
@@ -67,7 +67,7 @@ export default function HeroSection() {
           <Link href="/about" passHref>
             <Button
               size="lg"
-              className="bg-transparent hover:bg-yellow text-brown px-8 py-8 text-xl font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl min-w-[220px] w-full sm:w-[220px]"
+              className="bg-transparent hover:bg-yellow text-white px-8 py-8 text-xl font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl min-w-[220px] w-full sm:w-[220px]"
             >
               O nama
             </Button>

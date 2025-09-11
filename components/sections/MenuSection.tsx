@@ -32,7 +32,9 @@ export default function MenuSection() {
       <section className="py-16 w-full">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-2 text-brown">Naša ponuda</h2>
+            <h2 className="text-4xl font-bold mb-2 text-[#c90404]">
+              Naša ponuda
+            </h2>
             <p className=" text-[#FBBF24] text-xl">
               Uživajte u našim specijalitetima pripremljenim sa pažnjom i
               ljubavlju
@@ -55,13 +57,13 @@ export default function MenuSection() {
                 <CardHeader className="flex justify-between items-start">
                   <h3
                     className="text-2xl font-bold"
-                    style={{ color: "#E11D48" }}
+                    style={{ color: "#c90404" }}
                   >
                     {item.title}
                   </h3>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-lg mb-4" style={{ color: "#E11D48" }}>
+                  <p className="text-lg mb-4" style={{ color: "#c90404" }}>
                     {item.desc}
                   </p>
                 </CardContent>
@@ -76,7 +78,7 @@ export default function MenuSection() {
                 variant="outline"
                 className="bg-[#FBBF24] border-brown text-brown hover:bg-yellow hover:text-brown px-10 py-8 text-xl text-black font-semibold rounded-full transition-all duration-300 min-w-[220px]  sm:w-[220px]"
               >
-                Pogledaj cijeli meni
+                Pogledaj meni
               </Button>
             </Link>
           </div>

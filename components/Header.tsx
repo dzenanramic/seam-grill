@@ -13,16 +13,16 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-[#FBBF24] md:border-b md:border-sidebar-border">
       <div className="container flex items-center justify-end h-16 px-4">
         <nav className="hidden md:flex items-center gap-6 text-m font-medium">
-          <Link href="/" className="text-[#E11D48] hover:text-brown">
+          <Link href="/" className="text-[#c90404] hover:text-brown">
             Početna
           </Link>
-          <Link href="/about" className="text-[#E11D48] hover:text-brown">
+          <Link href="/about" className="text-[#c90404] hover:text-brown">
             O nama
           </Link>
-          <Link href="/menu" className="text-[#E11D48] hover:text-brown">
+          <Link href="/menu" className="text-[#c90404] hover:text-brown">
             Meni
           </Link>
-          <Link href="/contact" className="text-[#E11D48] hover:text-brown">
+          <Link href="/contact" className="text-[#c90404] hover:text-brown">
             Kontakt
           </Link>
         </nav>
@@ -40,14 +40,14 @@ export default function Header() {
               <Button
                 variant="ghost"
                 size="icon"
-                className="text-[#E11D48] hover:text-brown"
+                className="text-[#c90404] hover:text-brown"
               >
-                <Menu className="w-5 h-5 stroke-[#E11D48]" />
+                <Menu className="w-5 h-5 stroke-[#c90404]" />
               </Button>
             </SheetTrigger>
             <SheetContent
               side="right"
-              className="bg-yellow text-[#E11D48] border-l border-sidebar-border !bg-yellow !bg-opacity-100"
+              className="bg-yellow text-[#c90404] border-l border-sidebar-border !bg-yellow !bg-opacity-100"
               style={{ backgroundColor: "#fde047" }} // fallback solid yellow
             >
               <DialogTitle>

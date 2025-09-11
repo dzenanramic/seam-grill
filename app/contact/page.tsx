@@ -6,10 +6,10 @@ export default function ContactPage() {
       <section className="container px-4 py-16 max-w-4xl mx-auto">
         {/* Header with decorative elements */}
         <div className="text-center mb-12 relative">
-          <h1 className="text-[#E11D48] text-4xl md:text-5xl font-bold mb-2 ">
+          <h1 className="text-[#c90404] text-4xl md:text-5xl font-bold mb-2 ">
             Kontaktirajte nas
           </h1>
-          <p className="text-[#E11D48] text-lg max-w-md mx-auto">
+          <p className="text-[#c90404] text-lg max-w-md mx-auto">
             Dođite i probajte najbolje pite u gradu ili nas pozovite za narudžbu
             i besplatnu dostavu
           </p>
@@ -24,10 +24,10 @@ export default function ContactPage() {
                   <LocationIcon />
                 </div>
                 <div>
-                  <h2 className="text-[#E11D48] font-bold text-xl mb-1">
+                  <h2 className="text-[#c90404] font-bold text-xl mb-1">
                     Adresa
                   </h2>
-                  <p style={{ color: "#E11D48" }}>
+                  <p style={{ color: "#c90404" }}>
                     Patrijarha Makarija Sokolovića 4, Banja Luka
                   </p>
                 </div>
@@ -38,11 +38,11 @@ export default function ContactPage() {
                   <PhoneIcon />
                 </div>
                 <div>
-                  <h2 className="text-[#E11D48] font-bold text-xl mb-1">
+                  <h2 className="text-[#c90404] font-bold text-xl mb-1">
                     Telefon
                   </h2>
                   <a
-                    style={{ color: "#E11D48" }}
+                    style={{ color: "#c90404" }}
                     href="tel:065706148"
                     className="text-lg hover:text-red-400 transition-colors duration-300"
                   >
@@ -56,16 +56,16 @@ export default function ContactPage() {
                   <ClockIcon />
                 </div>
                 <div>
-                  <h2 className="text-[#E11D48] font-bold text-xl mb-1">
+                  <h2 className="text-[#c90404] font-bold text-xl mb-1">
                     Radno vrijeme
                   </h2>
-                  <p className="text-[#E11D48]">06:00 - 22:00</p>
+                  <p className="text-[#c90404]">06:00 - 22:00</p>
                 </div>
               </div>
 
               {/* Social Media Section */}
               <div className="pt-4">
-                <h3 className="text-[#E11D48] font-bold text-xl mb-4">
+                <h3 className="text-[#c90404] font-bold text-xl mb-4">
                   Pratite nas
                 </h3>
                 <div className="flex space-x-4">

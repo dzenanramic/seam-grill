@@ -30,7 +30,9 @@ export default function TestimonialsSection() {
       <section className="py-16 w-full">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-2">Šta kažu naši gosti</h2>
+            <h2 className="text-4xl text-[#c90404] font-bold mb-2">
+              Šta kažu naši gosti
+            </h2>
             <p className="text-[#FBBF24] text-xl max-w-2xl mx-auto">
               Naš ponos i radost su zadovoljni gosti koji se uvijek rado vraćaju
             </p>
@@ -43,7 +45,7 @@ export default function TestimonialsSection() {
               >
                 <CardContent className="pt-6">
                   <div className="text-yellow text-2xl mb-4">★★★★★</div>
-                  <p className="text-[#E11D48] mb-6">{t.text}</p>
+                  <p className="text-[#c90404] mb-6">{t.text}</p>
                   <div className="flex items-center">
                     <Avatar className="mr-3">
                       <AvatarFallback>{t.letter}</AvatarFallback>
