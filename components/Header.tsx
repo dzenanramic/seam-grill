@@ -30,7 +30,7 @@ export default function Header() {
           <Link href="/" className="flex-shrink-0">
             <span
               className="font-extrabold text-3xl tracking-widest"
-              style={{ color: "#E11D48", fontFamily: "inherit" }}
+              style={{ color: "#c90404", fontFamily: "inherit" }}
             >
               SAČ
             </span>
