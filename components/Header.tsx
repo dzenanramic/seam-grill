@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-[#FBBF24] md:border-b md:border-sidebar-border">
       <div className="container flex items-center justify-end h-16 px-4">
-        <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
+        <nav className="hidden md:flex items-center gap-6 text-m font-medium">
           <Link href="/" className="text-[#E11D48] hover:text-brown">
             Početna
           </Link>
