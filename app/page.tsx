@@ -5,8 +5,30 @@ import TestimonialsSection from "@/components/sections/TestemonialSection";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Pite pod sačem – Banja Luka",
-  description: "Ukusna hrana, srdačna usluga. Posjetite nas u Banja Luci!",
+  title: "Početna",
+  description:
+    "Dobrodošli u Pite pod sačem – uživajte u ukusnoj hrani i domaćoj atmosferi u Banja Luci.",
+  openGraph: {
+    title: "Početna | Pite pod sačem Sač",
+    description:
+      "Dobrodošli u Pite pod sačem – uživajte u ukusnoj hrani i domaćoj atmosferi u Banja Luci.",
+    url: "https://yourdomain.com/",
+    images: [
+      {
+        url: "/burek.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Burek iz ponude Pite pod sačem Sač Banja Luka",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Početna | Pite pod sačem Sač",
+    description:
+      "Dobrodošli u Pite pod sačem – uživajte u ukusnoj hrani i domaćoj atmosferi u Banja Luci.",
+    images: ["/burek.jpg"],
+  },
 };
 
 export default function HomePage() {

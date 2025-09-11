@@ -1,6 +1,35 @@
 import React from "react";
 import Image from "next/image";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "O nama",
+  description:
+    "Saznajte više o restoranu Pite pod sačem u Banja Luci. Tradicija, kvalitet i ljubaznost.",
+  openGraph: {
+    title: "O nama | Pite pod sačem Sač",
+    description:
+      "Saznajte više o restoranu Pite pod sačem u Banja Luci. Tradicija, kvalitet i ljubaznost.",
+    url: "https://yourdomain.com/about",
+    images: [
+      {
+        url: "/pite.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Tim restorana Pite pod sačem Sač Banja Luka",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "O nama | Pite pod sačem Sač",
+    description:
+      "Saznajte više o restoranu Pite pod sačem u Banja Luci. Tradicija, kvalitet i ljubaznost.",
+    images: ["/pite.jpg"],
+  },
+};
+
 function AboutPage() {
   return (
     <main className=" bg-[#FBBF24] text-[#E0E0E0]">
@@ -9,10 +38,11 @@ function AboutPage() {
         <div className="absolute inset-0 bg-black/60 z-10"></div>
         <Image
           src="/pite.jpg"
-          alt="Pite pod sačem Team"
+          alt="Tim restorana Pite pod sačem Banja Luka"
           layout="fill"
           objectFit="cover"
           className="z-0"
+          priority
         />
         <div className="container px-4 py-32 relative z-20">
           <div className="max-w-2xl">
@@ -23,8 +53,6 @@ function AboutPage() {
           </div>
         </div>
       </section>
-
-      {/* <Separator className="my-16 bg-gray-900" /> */}
 
       {/* About Content */}
       <section className="py-16">
@@ -44,8 +72,6 @@ function AboutPage() {
           </p>
         </div>
       </section>
-
-      {/* <Separator className="my-16 bg-gray-900" /> */}
     </main>
   );
 }

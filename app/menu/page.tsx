@@ -1,4 +1,31 @@
-import React from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Jelovnik",
+  description:
+    "Pogledajte jelovnik restorana Pite pod sačem u Banja Luci. Burek, sirnica, zeljanica i još mnogo toga!",
+  openGraph: {
+    title: "Jelovnik | Pite pod sačem Sač",
+    description:
+      "Pogledajte jelovnik restorana Pite pod sačem u Banja Luci. Burek, sirnica, zeljanica i još mnogo toga!",
+    url: "https://yourdomain.com/menu",
+    images: [
+      {
+        url: "/menu.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Jelovnik restorana Pite pod sačem Sač Banja Luka",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jelovnik | Pite pod sačem Sač",
+    description:
+      "Pogledajte jelovnik restorana Pite pod sačem u Banja Luci. Burek, sirnica, zeljanica i još mnogo toga!",
+    images: ["/menu.jpg"],
+  },
+};
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 
@@ -70,7 +97,7 @@ const menu = [
 
 function MenuList() {
   return (
-    <Card className="bg-[#FBBF24]  border-gray-800">
+    <Card className="bg-[#FBBF24]  border-gray-950 border-2">
       <CardHeader>
         <CardTitle className="text-3xl text-[#c90404]  text-center">
           Jelovnik
@@ -81,7 +108,7 @@ function MenuList() {
           {menu.map((item, idx) => (
             <li
               key={idx}
-              className="flex flex-col md:flex-row md:justify-between border-b border-gray-700 pb-2 last:border-none"
+              className="flex flex-col md:flex-row md:justify-between border-b-2 border-gray-950  pb-2 last:border-none"
             >
               <span className="text-[#c90404] text-xl font-medium">
                 {item.item}
