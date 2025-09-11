@@ -40,12 +40,15 @@ export default function HeroSection() {
           }`}
         >
           {/* Main heading with improved typography */}
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-yellow leading-tight">
             <span className="text-[#FBBF24] drop-shadow-md">Pite</span> pod
-            sačem <span className="text-[#FBBF24]">&quot;Sač&quot;</span>
+            sačem{" "}
+            <span className="text-[#FBBF24] drop-shadow-md">
+              &quot;Sač&quot;
+            </span>
           </h1>
           {/* Description with improved styling */}
-          <p className="text-xl md:text-2xl mb-10 text-white/95 max-w-2xl mx-auto leading-relaxed font-light">
+          <p className="text-xl md:text-2xl mb-10 text-light max-w-2xl mx-auto leading-relaxed font-light">
             Doživite autentični okus tradicionalne bosanske kuhinje -
             najukusnije pite u Banja Luci
           </p>
@@ -54,17 +57,17 @@ export default function HeroSection() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full max-w-3xl">
           <Link href="/menu" passHref>
             <Button
+              variant="outline"
               size="lg"
-              className="bg-[#FBBF24] hover:bg-[#FBBF24] text-black px-8 py-6 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl min-w-[220px] w-full sm:w-[220px]"
+              className="bg-[#FBBF24] border-brown text-brown hover:bg-yellow hover:text-brown px-8 py-8 text-xl text-black font-semibold rounded-full transition-all duration-300 min-w-[220px] w-full sm:w-[220px]"
             >
               Pogledaj meni
             </Button>
           </Link>
           <Link href="/about" passHref>
             <Button
-              variant="outline"
               size="lg"
-              className="border-white text-black hover:bg-white hover:text-black px-8 py-6 text-lg font-semibold rounded-full transition-all duration-300 min-w-[220px] w-full sm:w-[220px]"
+              className="bg-transparent hover:bg-yellow text-brown px-8 py-8 text-xl font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl min-w-[220px] w-full sm:w-[220px]"
             >
               O nama
             </Button>

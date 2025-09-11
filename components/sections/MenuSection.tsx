@@ -32,8 +32,8 @@ export default function MenuSection() {
       <section className="py-16 w-full">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-2">Naša ponuda</h2>
-            <p className="text-muted-foreground">
+            <h2 className="text-4xl font-bold mb-2 text-brown">Naša ponuda</h2>
+            <p className=" text-[#FBBF24] text-xl">
               Uživajte u našim specijalitetima pripremljenim sa pažnjom i
               ljubavlju
             </p>
@@ -42,7 +42,7 @@ export default function MenuSection() {
             {menuItems.map((item) => (
               <Card
                 key={item.title}
-                className="bg-[#1E1E1E] hover:scale-105 transition-transform border-0 w-full max-w-sm"
+                className="bg-[#FBBF24] hover:scale-105 transition-transform border-0 w-full max-w-sm"
               >
                 <div className="relative h-56 w-full">
                   <Image
@@ -53,10 +53,17 @@ export default function MenuSection() {
                   />
                 </div>
                 <CardHeader className="flex justify-between items-start">
-                  <h3 className="text-xl font-bold text-white">{item.title}</h3>
+                  <h3
+                    className="text-2xl font-bold"
+                    style={{ color: "#E11D48" }}
+                  >
+                    {item.title}
+                  </h3>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-white mb-4">{item.desc}</p>
+                  <p className="text-lg mb-4" style={{ color: "#E11D48" }}>
+                    {item.desc}
+                  </p>
                 </CardContent>
               </Card>
             ))}
@@ -66,7 +73,8 @@ export default function MenuSection() {
             <Link href="/menu" passHref>
               <Button
                 size="lg"
-                className="bg-[#FBBF24] hover:bg-[#FBBF24] text-black px-8 py-6 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl min-w-[220px] w-full sm:w-[220px]"
+                variant="outline"
+                className="bg-[#FBBF24] border-brown text-brown hover:bg-yellow hover:text-brown px-10 py-8 text-xl text-black font-semibold rounded-full transition-all duration-300 min-w-[220px]  sm:w-[220px]"
               >
                 Pogledaj cijeli meni
               </Button>

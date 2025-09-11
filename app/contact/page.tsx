@@ -2,14 +2,14 @@ import React from "react";
 
 export default function ContactPage() {
   return (
-    <main className=" bg-[#121212] text-[#E0E0E0]">
+    <main className=" bg-[#FBBF24] text-[#E0E0E0]">
       <section className="container px-4 py-16 max-w-4xl mx-auto">
         {/* Header with decorative elements */}
         <div className="text-center mb-12 relative">
-          <h1 className="text-4xl md:text-5xl font-bold mb-2 ">
+          <h1 className="text-[#E11D48] text-4xl md:text-5xl font-bold mb-2 ">
             Kontaktirajte nas
           </h1>
-          <p className="text-[#aaa] max-w-md mx-auto">
+          <p className="text-[#E11D48] text-lg max-w-md mx-auto">
             Dođite i probajte najbolje pite u gradu ili nas pozovite za narudžbu
             i besplatnu dostavu
           </p>
@@ -17,15 +17,17 @@ export default function ContactPage() {
 
         <div className=" items-center">
           {/* Contact Information */}
-          <div className="bg-[#1E1E1E] backdrop-blur-sm rounded-2xl p-6 border border-[#333346] shadow-xl">
+          <div className="bg-[#FBBF24] backdrop-blur-sm rounded-2xl p-6 border border-[#333346] shadow-xl">
             <div className="space-y-6">
               <div className="flex items-start">
                 <div className="bg-[#FBBF24] p-3 rounded-lg mr-4">
                   <LocationIcon />
                 </div>
                 <div>
-                  <h2 className="font-bold text-xl mb-1">Adresa</h2>
-                  <p className="text-[#b0b0b0]">
+                  <h2 className="text-[#E11D48] font-bold text-xl mb-1">
+                    Adresa
+                  </h2>
+                  <p style={{ color: "#E11D48" }}>
                     Patrijarha Makarija Sokolovića 4, Banja Luka
                   </p>
                 </div>
@@ -36,8 +38,11 @@ export default function ContactPage() {
                   <PhoneIcon />
                 </div>
                 <div>
-                  <h2 className="font-bold text-xl mb-1">Telefon</h2>
+                  <h2 className="text-[#E11D48] font-bold text-xl mb-1">
+                    Telefon
+                  </h2>
                   <a
+                    style={{ color: "#E11D48" }}
                     href="tel:065706148"
                     className="text-lg hover:text-red-400 transition-colors duration-300"
                   >
@@ -51,14 +56,18 @@ export default function ContactPage() {
                   <ClockIcon />
                 </div>
                 <div>
-                  <h2 className="font-bold text-xl mb-1">Radno vrijeme</h2>
-                  <p className="text-[#b0b0b0]">06:00 - 22:00</p>
+                  <h2 className="text-[#E11D48] font-bold text-xl mb-1">
+                    Radno vrijeme
+                  </h2>
+                  <p className="text-[#E11D48]">06:00 - 22:00</p>
                 </div>
               </div>
 
               {/* Social Media Section */}
               <div className="pt-4">
-                <h3 className="font-bold text-xl mb-4">Pratite nas</h3>
+                <h3 className="text-[#E11D48] font-bold text-xl mb-4">
+                  Pratite nas
+                </h3>
                 <div className="flex space-x-4">
                   <SocialLink
                     href="https://www.facebook.com/p/Pite-ispod-sa%C4%8Da-Banja-Luka-61556173691835/?locale=hr_HR"

@@ -1,10 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import { Separator } from "@/components/ui/separator";
 
 function AboutPage() {
   return (
-    <main className=" bg-[#121212] text-[#E0E0E0]">
+    <main className=" bg-[#FBBF24] text-[#E0E0E0]">
       {/* Hero Section */}
       <section className="relative">
         <div className="absolute inset-0 bg-black/60 z-10"></div>
@@ -25,20 +24,20 @@ function AboutPage() {
         </div>
       </section>
 
-      <Separator className="my-16 bg-gray-900" />
+      {/* <Separator className="my-16 bg-gray-900" /> */}
 
       {/* About Content */}
       <section className="py-16">
         <div className="container px-4 max-w-3xl mx-auto">
-          <h2 className="text-3xl font-bold mb-6">Naša priča</h2>
-          <p className="text-lg mb-6 text-muted-foreground">
+          <h2 className="text-[#E11D48] text-3xl font-bold mb-6">Naša priča</h2>
+          <p className="text-lg mb-6 text-[#E11D48]">
             Pite pod sačem je porodični restoran u srcu Banja Luke, poznat po
             autentičnim pitama ispod sača i roštilju pripremljenom po
             tradicionalnim receptima. Naša misija je da gostima pružimo
             nezaboravno gastronomsko iskustvo uz domaću atmosferu i srdačnu
             uslugu.
           </p>
-          <p className="text-lg mb-6 text-muted-foreground">
+          <p className="text-lg mb-6 text-[#E11D48]">
             Svaka pita, svaki komad mesa i svaki osmijeh našeg osoblja rezultat
             su ljubavi prema kuhinji i gostima. Posjetite nas i uvjerite se
             zašto smo omiljeni izbor za sve generacije!
@@ -46,7 +45,7 @@ function AboutPage() {
         </div>
       </section>
 
-      <Separator className="my-16 bg-gray-900" />
+      {/* <Separator className="my-16 bg-gray-900" /> */}
     </main>
   );
 }
