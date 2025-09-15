@@ -73,7 +73,7 @@ export default function ContactPage() {
                     href="tel:065706148"
                     className="text-lg hover:text-red-400 transition-colors duration-300"
                   >
-                    065 706 148
+                    +387 65 706 148
                   </a>
                 </div>
               </div>

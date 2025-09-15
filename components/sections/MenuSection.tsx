@@ -10,19 +10,43 @@ const menuItems = [
     title: "Burek",
     img: "/burek.jpg",
     price: "7 KM",
-    desc: "Pita punjena mesom, tradicionalni bosanski specijalitet.",
+    desc: "Pravi tradicionalni burek, sočna pita punjena finim mljevenim mesom, savršeno hrskava izvana i mekana iznutra. Klasičan izbor koji nikada ne razočara.",
   },
   {
     title: "Sirnica",
     img: "/sirnica.jpg",
     price: "9 KM",
-    desc: "Pita punjena sirom, omiljena u cijeloj regiji.",
+    desc: "Autentična sirnica pripremljena s najkvalitetnijim sirom. Njezina lagana i kremasta unutrašnjost savršeno se sljubljuje s hrskavim korama, stvarajući omiljeni zalogaj za svako doba dana.",
   },
   {
     title: "Zeljanica",
     img: "/zeljanica.jpg",
     price: "8 KM",
-    desc: "Pita punjena blitvom i sirom, svježa i lagana.",
+    desc: "Osvježavajuća zeljanica, savršena kombinacija svježe blitve i kremastog sira. Lagana i izuzetno ukusna, idealan izbor za one koji traže nešto zdravo i izdašno.",
+  },
+  {
+    title: "Sjeckani burek",
+    img: "/sjeckani-burek.jpg",
+    price: "6 KM",
+    desc: "Sjeckani burek—idealno rješenje za brzi, a istovremeno bogat obrok. Kockice sočnog mesa u hrskavim korama nude robustan okus i savršeno zadovoljstvo u svakom zalogaju.",
+  },
+  {
+    title: "Krompiruša",
+    img: "/krompirusa.jpg",
+    price: "5 KM",
+    desc: "Uživaj u bogatom okusu tradicionalne krompiruše. Jednostavna, ali neodoljiva pita s krumpirom i začinima, pečena do savršenstva, pruža pravi domaći doživljaj.",
+  },
+  {
+    title: "Pita sa gljivama",
+    img: "/pita-gljive.jpg",
+    price: "10 KM",
+    desc: "Prava delicija za ljubitelje gljiva! Naša pita sa gljivama je aromatična kombinacija svježih šampinjona, kreme i začina, sve upakovano u hrskavu, zlatnu koru. Sočno, mirisno i potpuno neodoljivo.",
+  },
+  {
+    title: "Pita sa tikvama",
+    img: "/pita-tikve.jpg",
+    price: "8 KM",
+    desc: "Neobična i očaravajuća, naša pita sa tikvama je sezonski specijalitet koji balansira slatke i slane note. Lagana i savršeno začinjena, pruža jedinstveno iskustvo okusa.",
   },
 ];
 

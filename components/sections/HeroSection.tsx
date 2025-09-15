@@ -64,14 +64,15 @@ export default function HeroSection() {
               Pogledaj meni
             </Button>
           </Link>
-          <Link href="/about" passHref>
+          <a href="tel:+38765706148">
             <Button
               size="lg"
-              className="bg-transparent hover:bg-yellow text-white px-8 py-8 text-xl font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl min-w-[220px] w-full sm:w-[220px]"
+              className="bg-gradient-to-r from-[#c90404] to-[#e60505] border-2 border-[#e60505] text-white hover:bg-gradient-to-r hover:from-[#FBBF24] hover:to-[#f0c933] hover:text-black px-8 py-8 text-xl font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl hover:shadow-[#FBBF24]/30 min-w-[220px] w-full sm:w-[220px] relative overflow-hidden group"
             >
-              O nama
+              <span className="relative z-10">Naruči i uživaj</span>
+              <div className="absolute inset-0 bg-gradient-to-r from-[#FBBF24] to-[#f0c933] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </Button>
-          </Link>
+          </a>
         </div>
       </div>
     </section>
