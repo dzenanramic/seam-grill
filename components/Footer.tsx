@@ -30,7 +30,13 @@ export default function Footer() {
           <p className="text-sm text-[#c90404]">
             Patrijarha Makarija Sokolovića 4, Banja Luka
           </p>
-          <p className="text-sm text-[#c90404] mt-2">+387 65 706 148</p>
+          <a
+            href="tel:+38765706148"
+            aria-label="Pozovi +387 65 706 148"
+            className="text-sm text-[#c90404] mt-2 inline-block underline hover:text-red-700"
+          >
+            +387 65 706 148
+          </a>
         </div>
 
         {/* Map section - full width on mobile, right column on desktop */}
