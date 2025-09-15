@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
-Sitemap: https://yourdomain.com/sitemap.xml
+
+Sitemap: https://www.sac-pite-pod-sacem.shop/sitemap.xml
+Host: https://www.sac-pite-pod-sacem.shop

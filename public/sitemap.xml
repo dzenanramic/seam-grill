@@ -1,19 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
   <url>
-    <loc>https://yourdomain.com/</loc>
+    <loc>https://www.sac-pite-pod-sacem.shop/</loc>
+    <lastmod>2025-09-15</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.sac-pite-pod-sacem.shop/pite.jpg</image:loc>
+      <image:caption>Tradicionalna domaća pita</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.sac-pite-pod-sacem.shop/pite2.jpg</image:loc>
+      <image:caption>Pite pečene pod sačem</image:caption>
+    </image:image>
   </url>
+
   <url>
-    <loc>https://yourdomain.com/about</loc>
+    <loc>https://www.sac-pite-pod-sacem.shop/about</loc>
+    <lastmod>2025-09-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://yourdomain.com/menu</loc>
-    <priority>0.8</priority>
+    <loc>https://www.sac-pite-pod-sacem.shop/menu</loc>
+    <lastmod>2025-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.sac-pite-pod-sacem.shop/burek.jpg</image:loc>
+      <image:caption>Burek s mesom</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.sac-pite-pod-sacem.shop/sirnica.jpg</image:loc>
+      <image:caption>Sirnica – pita sa sirom</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.sac-pite-pod-sacem.shop/zeljanica.jpg</image:loc>
+      <image:caption>Zeljanica – pita s blitvom</image:caption>
+    </image:image>
   </url>
+
   <url>
-    <loc>https://yourdomain.com/contact</loc>
+    <loc>https://www.sac-pite-pod-sacem.shop/contact</loc>
+    <lastmod>2025-09-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 </urlset>

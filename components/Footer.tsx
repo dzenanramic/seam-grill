@@ -57,6 +57,18 @@ export default function Footer() {
 
       <div className="text-center text-xs text-[#c90404]">
         © {new Date().getFullYear()} Pite pod sačem. Sva prava zadržana.
+        <div className="mt-1">
+          Site maintained by{" "}
+          <a
+            href="https://lightcit.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-red-700"
+          >
+            Light & ConsulITing
+          </a>
+          .
+        </div>
       </div>
     </footer>
   );
