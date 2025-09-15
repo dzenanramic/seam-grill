@@ -102,7 +102,7 @@ export default function ContactPage() {
                     label="Facebook"
                   />
                   <SocialLink
-                    href="https://www.instagram.com/pite.pod.sacem.bl/"
+                    href="https://www.instagram.com/pitepodsacem1/"
                     icon={<InstagramIcon />}
                     label="Instagram"
                   />
