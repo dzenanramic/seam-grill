@@ -97,7 +97,7 @@ export default function ContactPage() {
                 </h3>
                 <div className="flex space-x-4">
                   <SocialLink
-                    href="https://www.facebook.com/p/Pite-ispod-sa%C4%8Da-Banja-Luka-61556173691835/?locale=hr_HR"
+                    href="https://www.facebook.com/pite.pod.sacem.2025"
                     icon={<FacebookIcon />}
                     label="Facebook"
                   />
