@@ -49,7 +49,7 @@ export const metadata: Metadata = {
       "Uživajte u autentičnoj balkanskoj hrani u Banja Luci. Pogledajte naš jelovnik, saznajte više o nama i kontaktirajte nas!",
     images: ["/burek.jpg"],
   },
-  metadataBase: new URL("https://yourdomain.com"),
+  metadataBase: new URL("https://www.sac-pite-pod-sacem.shop/"),
 };
 
 export default function RootLayout({
